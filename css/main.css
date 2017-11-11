@@ -50,7 +50,7 @@ body {
 a,
 a:visited {
 	outline: none;
-	color: #fbca08;
+	color: #00adf2;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -239,7 +239,7 @@ mark {
 }
 
 hr {
-	border: solid #fbca08;
+	border: solid #00adf2;
 	border-width: 1px 0 0;
 	clear: both;
 	margin: 23px 0 12px;
@@ -265,7 +265,7 @@ dl {
 
 dt {
 	margin: 0;
-	color: #fbca08;
+	color: #00adf2;
 }
 
 dd {
@@ -343,7 +343,7 @@ img.pull-left {
 	border-top: 11px solid rgba(255, 255, 255, 0.2);
 	border-right: 11px solid rgba(255, 255, 255, 0.2);
 	border-bottom: 11px solid rgba(255, 255, 255, 0.2);
-	border-left: 11px solid #fbca08;
+	border-left: 11px solid #00adf2;
 	-webkit-animation: load 1.1s infinite linear;
 	animation: load 1.1s infinite linear;
 	display: block;
@@ -513,7 +513,7 @@ main::after {
 
 main h1 {
 	font: 38px/1.2em "montserrat-bold", sans-serif;
-	color: #fbca08;
+	color: #00adf2;
 	margin-bottom: 12px;
 	padding: 0;
 }
@@ -526,7 +526,7 @@ main p {
 }
 
 main hr {
-	border: solid #fbca08;
+	border: solid #00adf2;
 	border-width: 5px 0 0;
 	margin: 19px auto 12px;
 	height: 0;
@@ -770,7 +770,7 @@ main .site-header .logo a {
 }
 
 #mc-signup input[type="submit"]:hover {
-	background: #fbca08;
+	background: #00adf2;
 }
 
 #mc-signup label {
@@ -783,7 +783,7 @@ main .site-header .logo a {
 }
 
 #mc-signup label i {
-	color: #fbca08;
+	color: #00adf2;
 	margin-right: 5px;
 }
 
@@ -931,9 +931,9 @@ main .site-header .logo a {
 	}
 
 	.modal-toggles li a:hover {
-		border: 2px solid #fbca08;
+		border: 2px solid #00adf2;
 		color: black;
-		background: #fbca08;
+		background: #00adf2;
 	}
 
 	.modal-toggles li a::before {
@@ -1065,7 +1065,7 @@ main .site-header .logo a {
 
 .modal-toggle a:hover::before,
 .modal-toggle a:hover::after {
-	background-color: #fbca08;
+	background-color: #00adf2;
 }
 
 @media only screen and (max-width:600px) {
@@ -1117,7 +1117,7 @@ main .site-header .logo a {
 
 .about-header h1 {
 	font: 38px/1.2em "montserrat-bold", sans-serif;
-	color: #fbca08;
+	color: #00adf2;
 }
 
 .about-header .icon-wrap {
@@ -1212,7 +1212,7 @@ main .site-header .logo a {
 	font: 14px/1em "montserrat-bold", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	color: #fbca08;
+	color: #00adf2;
 }
 
 .contact p {
@@ -1311,7 +1311,7 @@ main .site-header .logo a {
 }
 
 .owl-theme .owl-controls .owl-page.active span {
-	background: #fbca08;
+	background: #00adf2;
 }
 
 /* modal map
@@ -1426,7 +1426,7 @@ main .site-header .logo a {
 
 #mod-map #map-zoom-in:hover::before,
 #mod-map #map-zoom-out:hover::before {
-	color: #fbca08;
+	color: #00adf2;
 }
 
 /* 
@@ -1497,7 +1497,7 @@ footer a:focus {
 }
 
 .footer-social li a {
-	color: #fbca08;
+	color: #00adf2;
 }
 
 .footer-social li a:hover {
