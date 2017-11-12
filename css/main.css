@@ -50,7 +50,7 @@ body {
 a,
 a:visited {
 	outline: none;
-	color: #00adf2;
+	color: azure;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -60,7 +60,7 @@ a:visited {
 
 a:hover,
 a:focus {
-	color: white;
+	color: #00adf2;
 }
 
 /* Typography
@@ -729,7 +729,7 @@ main .site-header .logo a {
 #mc-signup {
 	clear: both;
 	width: 75%;
-	margin: 6px auto 30px;
+	margin: 45px auto 30px;
 }
 
 #mc-signup input {
@@ -746,7 +746,7 @@ main .site-header .logo a {
 	line-height: 30px;
 	padding: 12px 15px 12px 20px;
 	border-radius: 3px 0 0 3px;
-	background: rgba(255, 255, 255, 0.25);
+	background: rgba(255, 255, 255, 0.8);
 	width: 70%;
 }
 
@@ -857,7 +857,7 @@ main .site-header .logo a {
 }
 
 .modal-toggles ul {
-	margin: 0;
+	margin: 25px;
 	padding: 0;
 	text-transform: uppercase;
 	font: 13px/24px "montserrat-bold", sans-serif;
