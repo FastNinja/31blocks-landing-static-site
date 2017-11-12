@@ -118,8 +118,10 @@
 	------------------------------------------------------ */
 
 	// Example MailChimp url: http://xxx.xxx.list-manage.com/subscribe/post?u=xxx&id=xxx
-	var mailChimpURL = 'http://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e65110b38d'
-
+	// Testing List - to be used in local
+	var mailChimpURL = 'https://31blocks.us17.list-manage.com/subscribe/post?u=ccdc1340fbd13e552bb71b5f7&id=375a9671c0'
+	// Actual List - to be used in local
+	// var mailChimpURL = 'https://31blocks.us17.list-manage.com/subscribe/post?u=ccdc1340fbd13e552bb71b5f7&id=ab2562fce6'
 
 	$('#mc-form').ajaxChimp({
 
