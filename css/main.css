@@ -869,7 +869,8 @@ main .site-header .logo a {
 }
 
 .modal-toggles li:first-child {
-	border-right: 1px solid #3b3b3b;
+	/*This line is commented out because there is only 1 element*/
+	/*border-right: 1px solid #3b3b3b;*/
 	color: white;
 }
 
