@@ -1,0 +1,61 @@
+﻿; Domain: 31blocks.com
+; Exported (y-m-d hh:mm:ss): 2017-11-12 22:20:11
+;
+; This file is intended for use for informational and archival
+; purposes ONLY and MUST be edited before use on a production
+; DNS server.
+;
+; In particular, you must update the SOA record with the correct
+; authoritative name server and contact e-mail address information,
+; and add the correct NS records for the name servers which will
+; be authoritative for this domain.
+;
+; For further information, please consult the BIND documentation
+; located on the following website:
+;
+; http://www.isc.org/
+;
+; And RFC 1035:
+;
+; http://www.ietf.org/rfc/rfc1035.txt
+;
+; Please note that we do NOT offer technical support for any use
+; of this zone data, the BIND name server, or any other third-
+; party DNS software.
+;
+; Use at your own risk.
+
+; SOA Record
+31blocks.com.	600	IN	SOA	ns77.domaincontrol.com.	dns.jomax.net (
+				2017111203
+				28800
+				7200
+				604800
+				600
+				)
+
+; A Records
+@	3600	IN	A	192.30.252.153
+@	3600	IN	A	50.63.202.1
+
+; CNAME Records
+ftp	3600	IN	CNAME	@
+k1._domainkey	3600	IN	CNAME	dkim.mcsv.net
+track	3600	IN	CNAME	mandrillapp.com
+webmail	3600	IN	CNAME	business.zoho.com
+www	3600	IN	CNAME	fastninja.github.io
+_domainconnect	3600	IN	CNAME	_domainconnect.gd.domaincontrol.com
+
+; MX Records
+@	3600	IN	MX	10	mx.zoho.com
+@	3600	IN	MX	20	mx2.zoho.com
+
+; TXT Records
+@	3600	IN	TXT	"v=spf1 include:zoho.com include:servers.mcsv.net include:spf.mandrillapp.com ~all"
+mandrill._domainkey	3600	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
+webmail._domainkey	3600	IN	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCFjpO4CRctBxHzMwpFHCUVry1cnGR/NElcWMezxhvLzXnFHpEG51Olk1t4eIfO1/fH1pl2zf5gzR+Q8tSR/PrDVz9A8Zqrrad/B0XtyvYZfpvJRcsq/ChJgvqQfzK3urrc1tTiN0yn3q+1h1mKJ9HZq+erBt5z91vWCbuEzZBdXQIDAQAB"
+webmaildk._domainkey	3600	IN	TXT	"k=rsa; t=y; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCRX4TG1nM6CdEr4rL+Mwe5WqXkBAoW6DM5eRa+lNeM6GjS25NXnW9tEdOHqtae+vENdvnYDQw9ns7MliC32EaMjZ5NWDQAXBogq+i3YCgcL8nm5Yx9k2jT0qzIxOxRxO1xnBuK2Hb8WPdzTwuKVcwCCF+M6oxKiPH9P7wLJtYHLwIDAQAB"
+
+; NS Records
+@	3600	IN	NS	ns77.domaincontrol.com
+@	3600	IN	NS	ns78.domaincontrol.com
